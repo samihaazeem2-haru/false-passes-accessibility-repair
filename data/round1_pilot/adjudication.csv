@@ -1,0 +1,85 @@
+item_id,label_A,note_A,label_B,note_B,final_verdict
+H002,fixed,,unclear,,fixed
+H004,not_fixed,,fixed,,fixed
+H005,not_fixed,,fixed,,not_fixed
+H006,fixed,,unclear,,fixed
+H007,not_fixed,,fixed,,not_fixed
+H008,unclear,"The sign-up link is given high-contrast styling, but the other affected text colors are not demonstrably corrected.",not_fixed,,not_fixed
+H009,not_fixed,,unclear,,not_fixed
+H011,unclear,he full contrast outcome depends on the actual styles and states of the affected elements; the supplied evidence does not establish all ratios.,fixed,,fixed
+H013,fixed,,not_fixed,,not_fixed
+H015,not_fixed,,unclear,,not_fixed
+H016,not_fixed,,fixed,,not_fixed
+H017,not_fixed,,unclear,,not_fixed
+H019,fixed,,unclear,,fixed
+H021,unclear,"The proposed repair changes the page structure, and the available snippet does not establish that the original content remains available to assistive technology.",fixed,,fixed
+H023,fixed,,unclear,,fixed
+H024,not_fixed,,unclear,,not_fixed
+H025,not_fixed,,fixed,,fixed
+H027,not_fixed,,unclear,,not_fixed
+H029,not_fixed,,unclear,,not_fixed
+H030,not_fixed,,unclear,,fixed
+H032,not_fixed,,fixed,,fixed
+H033,not_fixed,,unclear,,not_fixed
+H034,not_fixed,,fixed,,fixed
+H035,not_fixed,,unclear,,not_fixed
+H036,fixed,,unclear,,fixed
+H037,unclear,The snippet does not establish sufficient contrast for all affected text and backgrounds,fixed,,not_fixed
+H038,not_fixed,,unclear,,not_fixed
+H039,not_fixed,,unclear,,not_fixed
+H040,not_fixed,,fixed,,fixed
+H042,not_fixed,,fixed,,fixed
+H043,not_fixed,,unclear,,fixed
+H046,not_fixed,,fixed,,fixed
+H048,unclear,The available evidence does not establish the contrast of all affected elements.,fixed,,fixed
+H052,not_fixed,,fixed,,fixed
+H054,not_fixed,,unclear,,not_fixed
+H056,unclear,The visible snippet is insufficient to verify meaningful accessible names for every affected progress bar.,fixed,,fixed
+H060,not_fixed,,fixed,,fixed
+H061,not_fixed,,fixed,,fixed
+H062,not_fixed,,unclear,,not_fixed
+H063,unclear,"The repair is lengthy, and the available snippet does not establish whether all affected images receive meaningful alternatives.",fixed,,fixed
+H064,not_fixed,,unclear,,not_fixed
+H065,not_fixed,,fixed,,fixed
+H067,fixed,,unclear,,fixed
+H068,not_fixed,,fixed,,fixed
+H069,not_fixed,,fixed,,fixed
+H071,not_fixed,,unclear,,not_fixed
+H072,fixed,,unclear,,fixed
+H073,not_fixed,,unclear,,not_fixed
+H074,not_fixed,,fixed,,fixed
+H075,not_fixed,,unclear,,not_fixed
+H076,not_fixed,,unclear,,not_fixed
+H077,not_fixed,,fixed,,fixed
+H080,unclear,The repair’s coverage of all affected elements and their resulting contrast ratios is not sufficiently established by the available snippet,fixed,,fixed
+H081,not_fixed,,unclear,,not_fixed
+H082,not_fixed,,fixed,,fixed
+H083,fixed,,unclear,,fixed
+H084,not_fixed,,fixed,,fixed
+H086,not_fixed,,unclear,,not_fixed
+H087,fixed,,unclear,,fixed
+H088,fixed,,unclear,,fixed
+H089,not_fixed,,unclear,,not_fixed
+H090,not_fixed,,fixed,,fixed
+H091,not_fixed,,unclear,,not_fixed
+H093,fixed,,not_fixed,,not_fixed
+H094,not_fixed,,fixed,,fixed
+H095,not_fixed,,fixed,,not_fixed
+H096,unclear,The available evidence does not establish that all affected elements meet AA contrast.,fixed,,fixed
+H098,unclear,"The repair modifies script markup, but the available snippet does not establish that every duplicate ID in the original fragment is resolved",fixed,,fixed
+H099,not_fixed,,fixed,,not_fixed
+H102,not_fixed,,fixed,,fixed
+H103,not_fixed,,unclear,,not_fixed
+H104,not_fixed,,fixed,,fixed
+H107,unclear,The available snippet does not establish enhanced contrast for every affected control and state.,fixed,,fixed
+H108,fixed,,unclear,,fixed
+H109,fixed,,unclear,,fixed
+H110,not_fixed,,fixed,,fixed
+H112,not_fixed,,fixed,,fixed
+H113,not_fixed,,fixed,,not_fixed
+H114,not_fixed,,unclear,,not_fixed
+H116,not_fixed,,unclear,,not_fixed
+H117,not_fixed,,fixed,,fixed
+H118,not_fixed,,fixed,,fixed
+H119,unclear,"The visible snippet changes some styling, but does not establish that all affected elements meet 7:1 contrast.",unclear,,fixed
+H120,not_fixed,,fixed,,fixed

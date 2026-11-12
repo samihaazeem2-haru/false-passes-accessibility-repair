@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte as committed (no line-ending conversion), so SHA256SUMS still matches after a clone
+# on any operating system.
+* -text

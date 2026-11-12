@@ -1,0 +1,118 @@
+{
+  "sample_sha256": "ab9ebc0cf12a361fb1f36b13dcc33d7a679d1b88bba6c03b8557a1d4a44af450",
+  "items": 60,
+  "no_consensus_yet": [],
+  "kappa_before_adjudication": {
+    "binary": 0.822,
+    "binary_n": 60,
+    "binary_agreement": 0.933,
+    "three_label": 0.822,
+    "three_label_n": 60,
+    "confusion_A_rows_B_cols": {
+      "fixed|fixed": 43,
+      "fixed|not_fixed": 1,
+      "not_fixed|fixed": 3,
+      "not_fixed|not_fixed": 13
+    }
+  },
+  "labeller_counts": {
+    "A3": {
+      "fixed": 44,
+      "not_fixed": 16
+    },
+    "B3": {
+      "fixed": 46,
+      "not_fixed": 14
+    }
+  },
+  "primary_pooled_false_pass": {
+    "not_fixed": 15,
+    "decided": 60,
+    "estimate": 0.25,
+    "ci95_cluster_bootstrap": [
+      0.143,
+      0.361
+    ],
+    "cases": 52
+  },
+  "sensitivity_unclear_as_not_fixed": {
+    "not_fixed": 15,
+    "decided": 60,
+    "estimate": 0.25,
+    "ci95_cluster_bootstrap": [
+      0.143,
+      0.361
+    ],
+    "cases": 52
+  },
+  "truncated_excluded": {
+    "any_turn": {
+      "not_fixed": 8,
+      "decided": 47,
+      "estimate": 0.17,
+      "ci95_cluster_bootstrap": [
+        0.07,
+        0.283
+      ],
+      "cases": 43
+    },
+    "turn4_only": {
+      "not_fixed": 9,
+      "decided": 51,
+      "estimate": 0.176,
+      "ci95_cluster_bootstrap": [
+        0.078,
+        0.28
+      ],
+      "cases": 47
+    }
+  },
+  "truncated_items": {
+    "any_turn": 13,
+    "turn4": 9,
+    "not_fixed_among_truncated_any_turn": 7
+  },
+  "per_model_counts_descriptive": {
+    "MiniCPM-V-4.5": {
+      "items": 12,
+      "fixed": 9,
+      "not_fixed": 3,
+      "unclear": 0,
+      "no_consensus": 0,
+      "truncated_any_turn": 0
+    },
+    "Qwen3.5-4B": {
+      "items": 12,
+      "fixed": 11,
+      "not_fixed": 1,
+      "unclear": 0,
+      "no_consensus": 0,
+      "truncated_any_turn": 1
+    },
+    "InternVL3.5-2B": {
+      "items": 12,
+      "fixed": 9,
+      "not_fixed": 3,
+      "unclear": 0,
+      "no_consensus": 0,
+      "truncated_any_turn": 3
+    },
+    "SmolVLM2-2.2B": {
+      "items": 12,
+      "fixed": 5,
+      "not_fixed": 7,
+      "unclear": 0,
+      "no_consensus": 0,
+      "truncated_any_turn": 9
+    },
+    "Llama-3.2-3B": {
+      "items": 12,
+      "fixed": 11,
+      "not_fixed": 1,
+      "unclear": 0,
+      "no_consensus": 0,
+      "truncated_any_turn": 0
+    }
+  },
+  "bootstrap": "cluster bootstrap over cases (dataset rows), 4000 reps, seed 20261024"
+}

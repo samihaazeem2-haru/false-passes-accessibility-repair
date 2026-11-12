@@ -1,0 +1,1701 @@
+{
+  "main_by_model_method": {
+    "GPT4|baseline_one": {
+      "n": 186,
+      "checker_pass": 127,
+      "checker_pass_content_shrink": 26,
+      "judged": 48,
+      "judge_fixed": 1,
+      "judge_unclear": 0,
+      "checker_pass_judged": 1,
+      "false_pass": 0,
+      "false_pass_rate_ci": [
+        0.0,
+        0.0,
+        0.793
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.076
+      ],
+      "false_pass_modes": {}
+    },
+    "GPT4|baseline_two": {
+      "n": 186,
+      "checker_pass": 145,
+      "checker_pass_content_shrink": 52,
+      "judged": 24,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.138
+      ],
+      "false_pass_modes": {}
+    },
+    "GPT4|baseline_three": {
+      "n": 186,
+      "checker_pass": 33,
+      "checker_pass_content_shrink": 6,
+      "judged": 126,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        -0.0,
+        0.03
+      ],
+      "false_pass_modes": {}
+    },
+    "GPT4|accessguru_first": {
+      "n": 186,
+      "checker_pass": 174,
+      "checker_pass_content_shrink": 62,
+      "judged": 6,
+      "judge_fixed": 3,
+      "judge_unclear": 0,
+      "checker_pass_judged": 6,
+      "false_pass": 3,
+      "false_pass_rate_ci": [
+        0.5,
+        0.188,
+        0.812
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": null,
+      "false_pass_modes": {
+        "placeholder": 2,
+        "element_removed_or_hidden": 1
+      }
+    },
+    "GPT4|accessguru_final": {
+      "n": 186,
+      "checker_pass": 182,
+      "checker_pass_content_shrink": 67,
+      "judged": 8,
+      "judge_fixed": 3,
+      "judge_unclear": 0,
+      "checker_pass_judged": 6,
+      "false_pass": 3,
+      "false_pass_rate_ci": [
+        0.5,
+        0.188,
+        0.812
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.658
+      ],
+      "false_pass_modes": {
+        "placeholder": 2,
+        "element_removed_or_hidden": 1
+      }
+    },
+    "Mistral|baseline_one": {
+      "n": 186,
+      "checker_pass": 45,
+      "checker_pass_content_shrink": 2,
+      "judged": 117,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.032
+      ],
+      "false_pass_modes": {}
+    },
+    "Mistral|baseline_two": {
+      "n": 186,
+      "checker_pass": 45,
+      "checker_pass_content_shrink": 12,
+      "judged": 128,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.029
+      ],
+      "false_pass_modes": {}
+    },
+    "Mistral|baseline_three": {
+      "n": 186,
+      "checker_pass": 9,
+      "checker_pass_content_shrink": 1,
+      "judged": 177,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.021
+      ],
+      "false_pass_modes": {}
+    },
+    "Mistral|accessguru_first": {
+      "n": 186,
+      "checker_pass": 157,
+      "checker_pass_content_shrink": 103,
+      "judged": 4,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 3,
+      "false_pass": 3,
+      "false_pass_rate_ci": [
+        1.0,
+        0.438,
+        1.0
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.793
+      ],
+      "false_pass_modes": {
+        "element_removed_or_hidden": 1,
+        "violation_remains": 1,
+        "partial": 1
+      }
+    },
+    "Mistral|accessguru_final": {
+      "n": 186,
+      "checker_pass": 169,
+      "checker_pass_content_shrink": 108,
+      "judged": 7,
+      "judge_fixed": 1,
+      "judge_unclear": 0,
+      "checker_pass_judged": 7,
+      "false_pass": 6,
+      "false_pass_rate_ci": [
+        0.857,
+        0.487,
+        0.974
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": null,
+      "false_pass_modes": {
+        "element_removed_or_hidden": 2,
+        "partial": 2,
+        "no_code": 1,
+        "violation_remains": 1
+      }
+    },
+    "Qwen|baseline_one": {
+      "n": 186,
+      "checker_pass": 128,
+      "checker_pass_content_shrink": 41,
+      "judged": 27,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.125
+      ],
+      "false_pass_modes": {}
+    },
+    "Qwen|baseline_two": {
+      "n": 186,
+      "checker_pass": 129,
+      "checker_pass_content_shrink": 54,
+      "judged": 13,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.228
+      ],
+      "false_pass_modes": {}
+    },
+    "Qwen|baseline_three": {
+      "n": 186,
+      "checker_pass": 51,
+      "checker_pass_content_shrink": 11,
+      "judged": 77,
+      "judge_fixed": 0,
+      "judge_unclear": 0,
+      "checker_pass_judged": 0,
+      "false_pass": 0,
+      "false_pass_rate_ci": null,
+      "false_fail": 0,
+      "false_fail_rate_ci": [
+        0.0,
+        0.0,
+        0.048
+      ],
+      "false_pass_modes": {}
+    },
+    "Qwen|accessguru_first": {
+      "n": 186,
+      "checker_pass": 155,
+      "checker_pass_content_shrink": 60,
+      "judged": 6,
+      "judge_fixed": 3,
+      "judge_unclear": 0,
+      "checker_pass_judged": 6,
+      "false_pass": 3,
+      "false_pass_rate_ci": [
+        0.5,
+        0.188,
+        0.812
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": null,
+      "false_pass_modes": {
+        "no_code": 2,
+        "content_changed": 1
+      }
+    },
+    "Qwen|accessguru_final": {
+      "n": 186,
+      "checker_pass": 168,
+      "checker_pass_content_shrink": 54,
+      "judged": 9,
+      "judge_fixed": 4,
+      "judge_unclear": 0,
+      "checker_pass_judged": 9,
+      "false_pass": 5,
+      "false_pass_rate_ci": [
+        0.556,
+        0.267,
+        0.811
+      ],
+      "false_fail": 0,
+      "false_fail_rate_ci": null,
+      "false_pass_modes": {
+        "no_code": 2,
+        "new_barrier": 1,
+        "content_changed": 1,
+        "violation_remains": 1
+      }
+    }
+  },
+  "accessguru_final_false_pass_by_rule": [
+    {
+      "category": "Layout",
+      "rule": "color-contrast-enhanced",
+      "checker_pass_judged": 6,
+      "false_pass": 6
+    },
+    {
+      "category": "Syntax",
+      "rule": "presentation-role-conflict",
+      "checker_pass_judged": 2,
+      "false_pass": 0
+    },
+    {
+      "category": "Syntax",
+      "rule": "region",
+      "checker_pass_judged": 2,
+      "false_pass": 2
+    },
+    {
+      "category": "Syntax",
+      "rule": "link-name",
+      "checker_pass_judged": 2,
+      "false_pass": 1
+    },
+    {
+      "category": "Syntax",
+      "rule": "page-has-heading-one",
+      "checker_pass_judged": 1,
+      "false_pass": 1
+    },
+    {
+      "category": "Syntax",
+      "rule": "aria-valid-attr-value",
+      "checker_pass_judged": 1,
+      "false_pass": 1
+    },
+    {
+      "category": "Syntax",
+      "rule": "td-headers-attr",
+      "checker_pass_judged": 1,
+      "false_pass": 0
+    },
+    {
+      "category": "Syntax",
+      "rule": "autocomplete-valid",
+      "checker_pass_judged": 1,
+      "false_pass": 0
+    },
+    {
+      "category": "Layout",
+      "rule": "color-contrast",
+      "checker_pass_judged": 1,
+      "false_pass": 1
+    },
+    {
+      "category": "Syntax",
+      "rule": "aria-allowed-role",
+      "checker_pass_judged": 1,
+      "false_pass": 0
+    },
+    {
+      "category": "Syntax",
+      "rule": "listitem",
+      "checker_pass_judged": 1,
+      "false_pass": 1
+    },
+    {
+      "category": "Syntax",
+      "rule": "aria-command-name",
+      "checker_pass_judged": 1,
+      "false_pass": 0
+    },
+    {
+      "category": "Syntax",
+      "rule": "aria-toggle-field-name",
+      "checker_pass_judged": 1,
+      "false_pass": 0
+    },
+    {
+      "category": "Syntax",
+      "rule": "aria-meter-name",
+      "checker_pass_judged": 1,
+      "false_pass": 1
+    }
+  ],
+  "semantic_checker_blind": {
+    "GPT4": {
+      "n": 55,
+      "judged": 0,
+      "judge_fixed_rate_ci": null,
+      "paper_fixed_rate (first round)": [
+        0.927,
+        0.827,
+        0.971
+      ],
+      "judge_vs_paper_agreement": null,
+      "judge_vs_paper_kappa": null,
+      "paper_says_fixed_judge_says_not": 0,
+      "axe_score_unchanged_after_repair": 53,
+      "axe_score_increased_after_repair": 2
+    },
+    "Pixtral": {
+      "n": 55,
+      "judged": 0,
+      "judge_fixed_rate_ci": null,
+      "paper_fixed_rate (first round)": [
+        0.836,
+        0.717,
+        0.911
+      ],
+      "judge_vs_paper_agreement": null,
+      "judge_vs_paper_kappa": null,
+      "paper_says_fixed_judge_says_not": 0,
+      "axe_score_unchanged_after_repair": 49,
+      "axe_score_increased_after_repair": 6
+    },
+    "Qwen": {
+      "n": 55,
+      "judged": 0,
+      "judge_fixed_rate_ci": null,
+      "paper_fixed_rate (first round)": [
+        0.655,
+        0.523,
+        0.766
+      ],
+      "judge_vs_paper_agreement": null,
+      "judge_vs_paper_kappa": null,
+      "paper_says_fixed_judge_says_not": 0,
+      "axe_score_unchanged_after_repair": 37,
+      "axe_score_increased_after_repair": 17
+    }
+  },
+  "semantic_axe_vs_paper_manual": {
+    "GPT4": {
+      "n": 55,
+      "paper_fixed": 51,
+      "axe_no_new_violation": {
+        "axe_pass": 51,
+        "agreement": 0.891,
+        "kappa": 0.191,
+        "paper_not_fixed_but_axe_pass": 3,
+        "paper_fixed_but_axe_fail": 3
+      },
+      "axe_clean_after": {
+        "axe_pass": 9,
+        "agreement": 0.236,
+        "kappa": 0.03,
+        "paper_not_fixed_but_axe_pass": 0,
+        "paper_fixed_but_axe_fail": 42
+      }
+    },
+    "Pixtral": {
+      "n": 55,
+      "paper_fixed": 46,
+      "axe_no_new_violation": {
+        "axe_pass": 52,
+        "agreement": 0.818,
+        "kappa": 0.092,
+        "paper_not_fixed_but_axe_pass": 8,
+        "paper_fixed_but_axe_fail": 2
+      },
+      "axe_clean_after": {
+        "axe_pass": 10,
+        "agreement": 0.273,
+        "kappa": -0.019,
+        "paper_not_fixed_but_axe_pass": 2,
+        "paper_fixed_but_axe_fail": 38
+      }
+    },
+    "Qwen": {
+      "n": 54,
+      "paper_fixed": 36,
+      "axe_no_new_violation": {
+        "axe_pass": 31,
+        "agreement": 0.5,
+        "kappa": -0.052,
+        "paper_not_fixed_but_axe_pass": 11,
+        "paper_fixed_but_axe_fail": 16
+      },
+      "axe_clean_after": {
+        "axe_pass": 6,
+        "agreement": 0.407,
+        "kappa": 0.059,
+        "paper_not_fixed_but_axe_pass": 1,
+        "paper_fixed_but_axe_fail": 31
+      }
+    }
+  },
+  "human_sample_judges_alone_0usd": {
+    "per_judge": {
+      "openai/gpt-oss-120b": {
+        "by_repairer_model": {
+          "GPT4": {
+            "judged": 36,
+            "not_fixed": 16,
+            "fixed": 20,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.444,
+              0.295,
+              0.604
+            ]
+          },
+          "Mistral": {
+            "judged": 38,
+            "not_fixed": 28,
+            "fixed": 10,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.737,
+              0.58,
+              0.85
+            ]
+          },
+          "Qwen": {
+            "judged": 38,
+            "not_fixed": 18,
+            "fixed": 20,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.474,
+              0.325,
+              0.627
+            ]
+          }
+        },
+        "skipped_too_large": [
+          "H011",
+          "H017",
+          "H041",
+          "H065",
+          "H073",
+          "H077",
+          "H091",
+          "H094"
+        ],
+        "judge_error": [],
+        "not_judged_yet": 0,
+        "content_shrink_flagged_judge_not_fixed": "45/48",
+        "content_shrink_unflagged_judge_not_fixed": "17/64",
+        "kappa_shrink_flag_vs_judge": 0.648
+      },
+      "qwen/qwen3.8-27b": {
+        "by_repairer_model": {
+          "GPT4": {
+            "judged": 35,
+            "not_fixed": 28,
+            "fixed": 7,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.8,
+              0.641,
+              0.9
+            ]
+          },
+          "Mistral": {
+            "judged": 37,
+            "not_fixed": 34,
+            "fixed": 3,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.919,
+              0.787,
+              0.972
+            ]
+          },
+          "Qwen": {
+            "judged": 37,
+            "not_fixed": 27,
+            "fixed": 10,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.73,
+              0.57,
+              0.846
+            ]
+          }
+        },
+        "skipped_too_large": [
+          "H005",
+          "H007",
+          "H011",
+          "H017",
+          "H041",
+          "H054",
+          "H065",
+          "H073",
+          "H077",
+          "H091",
+          "H094"
+        ],
+        "judge_error": [],
+        "not_judged_yet": 0,
+        "content_shrink_flagged_judge_not_fixed": "45/45",
+        "content_shrink_unflagged_judge_not_fixed": "44/64",
+        "kappa_shrink_flag_vs_judge": 0.273
+      }
+    },
+    "judge_vs_judge": {
+      "openai/gpt-oss-120b vs qwen/qwen3.8-27b": {
+        "both_decided": 109,
+        "agreement": 0.725,
+        "kappa": 0.419
+      }
+    }
+  },
+  "human_sample_0usd": {
+    "design": "120 checker-passing AccessGuru-final repairs, random per model (seed 20261023), 98 distinct cases; cluster bootstrap over cases, 4000 reps, seed 20261024",
+    "false_pass_rate_human_consensus": {
+      "GPT4": {
+        "estimate": 0.175,
+        "ci95_cluster_bootstrap": [
+          0.065,
+          0.302
+        ],
+        "n": 40,
+        "consensus_not_fixed": 7,
+        "consensus_fixed": 33,
+        "consensus_unclear": 0,
+        "no_consensus_yet": 0,
+        "wilson_ci95_ignoring_clusters": [
+          0.175,
+          0.087,
+          0.32
+        ]
+      },
+      "Mistral": {
+        "estimate": 0.45,
+        "ci95_cluster_bootstrap": [
+          0.294,
+          0.605
+        ],
+        "n": 40,
+        "consensus_not_fixed": 18,
+        "consensus_fixed": 22,
+        "consensus_unclear": 0,
+        "no_consensus_yet": 0,
+        "wilson_ci95_ignoring_clusters": [
+          0.45,
+          0.307,
+          0.602
+        ]
+      },
+      "Qwen": {
+        "estimate": 0.4,
+        "ci95_cluster_bootstrap": [
+          0.25,
+          0.558
+        ],
+        "n": 40,
+        "consensus_not_fixed": 16,
+        "consensus_fixed": 24,
+        "consensus_unclear": 0,
+        "no_consensus_yet": 0,
+        "wilson_ci95_ignoring_clusters": [
+          0.4,
+          0.263,
+          0.554
+        ]
+      },
+      "pooled": {
+        "estimate": 0.342,
+        "ci95_cluster_bootstrap": [
+          0.26,
+          0.422
+        ]
+      },
+      "GPT4-Mistral": {
+        "estimate": -0.275,
+        "ci95_cluster_bootstrap": [
+          -0.47,
+          -0.079
+        ]
+      },
+      "GPT4-Qwen": {
+        "estimate": -0.225,
+        "ci95_cluster_bootstrap": [
+          -0.424,
+          -0.021
+        ]
+      },
+      "Mistral-Qwen": {
+        "estimate": 0.05,
+        "ci95_cluster_bootstrap": [
+          -0.163,
+          0.269
+        ]
+      },
+      "true_fix_186_GPT4": {
+        "estimate": 0.807,
+        "ci95_cluster_bootstrap": [
+          0.683,
+          0.915
+        ]
+      },
+      "true_fix_186_Mistral": {
+        "estimate": 0.5,
+        "ci95_cluster_bootstrap": [
+          0.359,
+          0.641
+        ]
+      },
+      "true_fix_186_Qwen": {
+        "estimate": 0.542,
+        "ci95_cluster_bootstrap": [
+          0.399,
+          0.677
+        ]
+      }
+    },
+    "inter_rater": {
+      "both_labelled": 120,
+      "agreement_3_labels": 0.308,
+      "kappa_3_labels": 0.026,
+      "both_decided": 70,
+      "agreement_binary": 0.514,
+      "kappa_binary": 0.105,
+      "confusion_A_x_B": {
+        "not_fixed|not_fixed": 7,
+        "fixed|unclear": 12,
+        "not_fixed|fixed": 32,
+        "unclear|not_fixed": 1,
+        "not_fixed|unclear": 26,
+        "fixed|fixed": 29,
+        "unclear|fixed": 10,
+        "fixed|not_fixed": 2,
+        "unclear|unclear": 1
+      }
+    },
+    "judges_vs_human": {
+      "openai/gpt-oss-120b": {
+        "same_family_repairer": "GPT4",
+        "judged": 112,
+        "skipped_too_large": [
+          "H011",
+          "H017",
+          "H041",
+          "H065",
+          "H073",
+          "H077",
+          "H091",
+          "H094"
+        ],
+        "judge_error": [],
+        "not_judged_yet": 0,
+        "judge_false_pass_rate": 0.554,
+        "vs_human_n": 112,
+        "vs_human_agreement": 0.688,
+        "vs_human_kappa": 0.397,
+        "human_fixed_judge_not": 30,
+        "human_not_judge_fixed": 5,
+        "out_of_family_n": 76,
+        "out_of_family_agreement": 0.737,
+        "out_of_family_kappa": 0.496
+      },
+      "qwen/qwen3.8-27b": {
+        "same_family_repairer": "Qwen",
+        "judged": 109,
+        "skipped_too_large": [
+          "H005",
+          "H007",
+          "H011",
+          "H017",
+          "H041",
+          "H054",
+          "H065",
+          "H073",
+          "H077",
+          "H091",
+          "H094"
+        ],
+        "judge_error": [],
+        "not_judged_yet": 0,
+        "judge_false_pass_rate": 0.817,
+        "vs_human_n": 109,
+        "vs_human_agreement": 0.459,
+        "vs_human_kappa": 0.126,
+        "human_fixed_judge_not": 57,
+        "human_not_judge_fixed": 2,
+        "out_of_family_n": 72,
+        "out_of_family_agreement": 0.375,
+        "out_of_family_kappa": 0.039
+      }
+    },
+    "content_shrink_vs_human": {
+      "decided": 120,
+      "flagged": 56,
+      "flagged_and_human_not_fixed": 34,
+      "unflagged_and_human_not_fixed": 7,
+      "kappa_flag_vs_human": 0.506
+    }
+  },
+  "human_sample_round2_plan": {
+    "plan_file": "PLAN_round2.md",
+    "sample_round2_sha256": "350169aa3c4e9817bb7645233c1d19ea578de8a1591a451b5ffe88cc6857d162",
+    "sample_hash_matches_plan": true,
+    "overlap_with_round1_cases": 0,
+    "items_from_a_web_page_also_used_in_round1": 66
+  },
+  "human_sample_round2_judges_alone": {
+    "per_judge": {
+      "openai/gpt-oss-120b": {
+        "by_repairer_model": {
+          "GPT4": {
+            "judged": 35,
+            "not_fixed": 16,
+            "fixed": 19,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.457,
+              0.305,
+              0.618
+            ]
+          },
+          "Mistral": {
+            "judged": 36,
+            "not_fixed": 22,
+            "fixed": 14,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.611,
+              0.449,
+              0.752
+            ]
+          },
+          "Qwen": {
+            "judged": 35,
+            "not_fixed": 7,
+            "fixed": 28,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.2,
+              0.1,
+              0.359
+            ]
+          }
+        },
+        "skipped_too_large": [
+          "R2-014",
+          "R2-016",
+          "R2-020",
+          "R2-021",
+          "R2-022",
+          "R2-025",
+          "R2-048",
+          "R2-054",
+          "R2-055",
+          "R2-070",
+          "R2-072",
+          "R2-084",
+          "R2-104",
+          "R2-111"
+        ],
+        "judge_error": [],
+        "not_judged_yet": 0,
+        "content_shrink_flagged_judge_not_fixed": "33/36",
+        "content_shrink_unflagged_judge_not_fixed": "12/70",
+        "kappa_shrink_flag_vs_judge": 0.703
+      },
+      "qwen/qwen3.8-27b": {
+        "by_repairer_model": {
+          "GPT4": {
+            "judged": 33,
+            "not_fixed": 25,
+            "fixed": 8,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.758,
+              0.59,
+              0.872
+            ]
+          },
+          "Mistral": {
+            "judged": 36,
+            "not_fixed": 30,
+            "fixed": 6,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.833,
+              0.681,
+              0.921
+            ]
+          },
+          "Qwen": {
+            "judged": 35,
+            "not_fixed": 20,
+            "fixed": 15,
+            "unclear": 0,
+            "judge_false_pass_rate_ci": [
+              0.571,
+              0.409,
+              0.72
+            ]
+          }
+        },
+        "skipped_too_large": [
+          "R2-014",
+          "R2-016",
+          "R2-020",
+          "R2-021",
+          "R2-022",
+          "R2-025",
+          "R2-048",
+          "R2-053",
+          "R2-054",
+          "R2-055",
+          "R2-070",
+          "R2-072",
+          "R2-084",
+          "R2-104",
+          "R2-111"
+        ],
+        "judge_error": [
+          "R2-050"
+        ],
+        "not_judged_yet": 0,
+        "content_shrink_flagged_judge_not_fixed": "34/35",
+        "content_shrink_unflagged_judge_not_fixed": "41/69",
+        "kappa_shrink_flag_vs_judge": 0.294
+      }
+    },
+    "judge_vs_judge": {
+      "openai/gpt-oss-120b vs qwen/qwen3.8-27b": {
+        "both_decided": 104,
+        "agreement": 0.683,
+        "kappa": 0.406
+      }
+    }
+  },
+  "human_sample_round2": {
+    "design": "120 checker-passing AccessGuru-final repairs, random per model (seed 20261026) excluding every round-1 case, rubric v2, 75 distinct cases; cluster bootstrap over cases, 4000 reps, seed 20261024",
+    "false_pass_rate_human_consensus": {
+      "GPT4": {
+        "estimate": 0.225,
+        "ci95_cluster_bootstrap": [
+          0.104,
+          0.362
+        ],
+        "n": 40,
+        "consensus_not_fixed": 9,
+        "consensus_fixed": 31,
+        "consensus_unclear": 0,
+        "no_consensus_yet": 0,
+        "wilson_ci95_ignoring_clusters": [
+          0.225,
+          0.123,
+          0.375
+        ]
+      },
+      "Mistral": {
+        "estimate": 0.55,
+        "ci95_cluster_bootstrap": [
+          0.395,
+          0.703
+        ],
+        "n": 40,
+        "consensus_not_fixed": 22,
+        "consensus_fixed": 18,
+        "consensus_unclear": 0,
+        "no_consensus_yet": 0,
+        "wilson_ci95_ignoring_clusters": [
+          0.55,
+          0.398,
+          0.693
+        ]
+      },
+      "Qwen": {
+        "estimate": 0.325,
+        "ci95_cluster_bootstrap": [
+          0.189,
+          0.475
+        ],
+        "n": 40,
+        "consensus_not_fixed": 13,
+        "consensus_fixed": 27,
+        "consensus_unclear": 0,
+        "no_consensus_yet": 0,
+        "wilson_ci95_ignoring_clusters": [
+          0.325,
+          0.201,
+          0.48
+        ]
+      },
+      "pooled": {
+        "estimate": 0.367,
+        "ci95_cluster_bootstrap": [
+          0.271,
+          0.471
+        ]
+      },
+      "GPT4-Mistral": {
+        "estimate": -0.325,
+        "ci95_cluster_bootstrap": [
+          -0.518,
+          -0.135
+        ]
+      },
+      "GPT4-Qwen": {
+        "estimate": -0.1,
+        "ci95_cluster_bootstrap": [
+          -0.271,
+          0.074
+        ]
+      },
+      "Mistral-Qwen": {
+        "estimate": 0.225,
+        "ci95_cluster_bootstrap": [
+          0.044,
+          0.412
+        ]
+      },
+      "true_fix_186_GPT4": {
+        "estimate": 0.758,
+        "ci95_cluster_bootstrap": [
+          0.625,
+          0.877
+        ]
+      },
+      "true_fix_186_Mistral": {
+        "estimate": 0.409,
+        "ci95_cluster_bootstrap": [
+          0.27,
+          0.549
+        ]
+      },
+      "true_fix_186_Qwen": {
+        "estimate": 0.61,
+        "ci95_cluster_bootstrap": [
+          0.474,
+          0.732
+        ]
+      }
+    },
+    "inter_rater": {
+      "both_labelled": 120,
+      "agreement_3_labels": 0.967,
+      "kappa_3_labels": 0.928,
+      "both_decided": 120,
+      "agreement_binary": 0.967,
+      "kappa_binary": 0.928,
+      "confusion_A_x_B": {
+        "not_fixed|not_fixed": 41,
+        "fixed|fixed": 75,
+        "not_fixed|fixed": 4
+      }
+    },
+    "judges_vs_human": {
+      "openai/gpt-oss-120b": {
+        "same_family_repairer": "GPT4",
+        "judged": 106,
+        "skipped_too_large": [
+          "R2-014",
+          "R2-016",
+          "R2-020",
+          "R2-021",
+          "R2-022",
+          "R2-025",
+          "R2-048",
+          "R2-054",
+          "R2-055",
+          "R2-070",
+          "R2-072",
+          "R2-084",
+          "R2-104",
+          "R2-111"
+        ],
+        "judge_error": [],
+        "not_judged_yet": 0,
+        "judge_false_pass_rate": 0.425,
+        "vs_human_n": 106,
+        "vs_human_agreement": 0.708,
+        "vs_human_kappa": 0.385,
+        "human_fixed_judge_not": 20,
+        "human_not_judge_fixed": 11,
+        "out_of_family_n": 71,
+        "out_of_family_agreement": 0.732,
+        "out_of_family_kappa": 0.443
+      },
+      "qwen/qwen3.8-27b": {
+        "same_family_repairer": "Qwen",
+        "judged": 104,
+        "skipped_too_large": [
+          "R2-014",
+          "R2-016",
+          "R2-020",
+          "R2-021",
+          "R2-022",
+          "R2-025",
+          "R2-048",
+          "R2-053",
+          "R2-054",
+          "R2-055",
+          "R2-070",
+          "R2-072",
+          "R2-084",
+          "R2-104",
+          "R2-111"
+        ],
+        "judge_error": [
+          "R2-050"
+        ],
+        "not_judged_yet": 0,
+        "judge_false_pass_rate": 0.721,
+        "vs_human_n": 104,
+        "vs_human_agreement": 0.519,
+        "vs_human_kappa": 0.16,
+        "human_fixed_judge_not": 45,
+        "human_not_judge_fixed": 5,
+        "out_of_family_n": 69,
+        "out_of_family_agreement": 0.522,
+        "out_of_family_kappa": 0.166
+      }
+    },
+    "content_shrink_vs_human": {
+      "decided": 120,
+      "flagged": 50,
+      "flagged_and_human_not_fixed": 30,
+      "unflagged_and_human_not_fixed": 14,
+      "kappa_flag_vs_human": 0.407
+    },
+    "labels_complete": {
+      "A": 120,
+      "B": 120,
+      "consensus": 120,
+      "n": 120
+    },
+    "consensus_sensitivity_unclear_as_not_fixed": {
+      "GPT4": {
+        "estimate": 0.225,
+        "ci95_cluster_bootstrap": [
+          0.104,
+          0.362
+        ]
+      },
+      "Mistral": {
+        "estimate": 0.55,
+        "ci95_cluster_bootstrap": [
+          0.395,
+          0.703
+        ]
+      },
+      "Qwen": {
+        "estimate": 0.325,
+        "ci95_cluster_bootstrap": [
+          0.189,
+          0.475
+        ]
+      },
+      "pooled": {
+        "estimate": 0.367,
+        "ci95_cluster_bootstrap": [
+          0.271,
+          0.471
+        ]
+      },
+      "GPT4-Mistral": {
+        "estimate": -0.325,
+        "ci95_cluster_bootstrap": [
+          -0.518,
+          -0.135
+        ]
+      },
+      "GPT4-Qwen": {
+        "estimate": -0.1,
+        "ci95_cluster_bootstrap": [
+          -0.271,
+          0.074
+        ]
+      },
+      "Mistral-Qwen": {
+        "estimate": 0.225,
+        "ci95_cluster_bootstrap": [
+          0.044,
+          0.412
+        ]
+      },
+      "true_fix_186_GPT4": {
+        "estimate": 0.758,
+        "ci95_cluster_bootstrap": [
+          0.625,
+          0.877
+        ]
+      },
+      "true_fix_186_Mistral": {
+        "estimate": 0.409,
+        "ci95_cluster_bootstrap": [
+          0.27,
+          0.549
+        ]
+      },
+      "true_fix_186_Qwen": {
+        "estimate": 0.61,
+        "ci95_cluster_bootstrap": [
+          0.474,
+          0.732
+        ]
+      }
+    },
+    "per_labeller_false_pass": {
+      "labeller_A": {
+        "labelled": 120,
+        "counts": {
+          "GPT4": {
+            "not_fixed": 9,
+            "fixed": 31
+          },
+          "Mistral": {
+            "fixed": 18,
+            "not_fixed": 22
+          },
+          "Qwen": {
+            "fixed": 26,
+            "not_fixed": 14
+          }
+        },
+        "unclear_excluded": {
+          "GPT4": {
+            "estimate": 0.225,
+            "ci95_cluster_bootstrap": [
+              0.104,
+              0.362
+            ]
+          },
+          "Mistral": {
+            "estimate": 0.55,
+            "ci95_cluster_bootstrap": [
+              0.395,
+              0.703
+            ]
+          },
+          "Qwen": {
+            "estimate": 0.35,
+            "ci95_cluster_bootstrap": [
+              0.209,
+              0.5
+            ]
+          },
+          "pooled": {
+            "estimate": 0.375,
+            "ci95_cluster_bootstrap": [
+              0.279,
+              0.479
+            ]
+          }
+        },
+        "unclear_as_not_fixed": {
+          "GPT4": {
+            "estimate": 0.225,
+            "ci95_cluster_bootstrap": [
+              0.104,
+              0.362
+            ]
+          },
+          "Mistral": {
+            "estimate": 0.55,
+            "ci95_cluster_bootstrap": [
+              0.395,
+              0.703
+            ]
+          },
+          "Qwen": {
+            "estimate": 0.35,
+            "ci95_cluster_bootstrap": [
+              0.209,
+              0.5
+            ]
+          },
+          "pooled": {
+            "estimate": 0.375,
+            "ci95_cluster_bootstrap": [
+              0.279,
+              0.479
+            ]
+          }
+        }
+      },
+      "labeller_B": {
+        "labelled": 120,
+        "counts": {
+          "GPT4": {
+            "not_fixed": 8,
+            "fixed": 32
+          },
+          "Mistral": {
+            "fixed": 19,
+            "not_fixed": 21
+          },
+          "Qwen": {
+            "fixed": 28,
+            "not_fixed": 12
+          }
+        },
+        "unclear_excluded": {
+          "GPT4": {
+            "estimate": 0.2,
+            "ci95_cluster_bootstrap": [
+              0.086,
+              0.326
+            ]
+          },
+          "Mistral": {
+            "estimate": 0.525,
+            "ci95_cluster_bootstrap": [
+              0.371,
+              0.677
+            ]
+          },
+          "Qwen": {
+            "estimate": 0.3,
+            "ci95_cluster_bootstrap": [
+              0.171,
+              0.45
+            ]
+          },
+          "pooled": {
+            "estimate": 0.342,
+            "ci95_cluster_bootstrap": [
+              0.252,
+              0.439
+            ]
+          }
+        },
+        "unclear_as_not_fixed": {
+          "GPT4": {
+            "estimate": 0.2,
+            "ci95_cluster_bootstrap": [
+              0.086,
+              0.326
+            ]
+          },
+          "Mistral": {
+            "estimate": 0.525,
+            "ci95_cluster_bootstrap": [
+              0.371,
+              0.677
+            ]
+          },
+          "Qwen": {
+            "estimate": 0.3,
+            "ci95_cluster_bootstrap": [
+              0.171,
+              0.45
+            ]
+          },
+          "pooled": {
+            "estimate": 0.342,
+            "ci95_cluster_bootstrap": [
+              0.252,
+              0.439
+            ]
+          }
+        }
+      }
+    }
+  },
+  "round1_vs_round2": {
+    "note": "round 1 = pilot, rubric v1; round 2 = primary, rubric v1 + v2 addendum; different items and cases",
+    "round1": {
+      "kappa_binary_before_adjudication": 0.105,
+      "kappa_3_labels_before_adjudication": 0.026,
+      "agreement_binary": 0.514,
+      "both_decided": 70,
+      "unclear_by_A": 12,
+      "unclear_by_B": 39,
+      "consensus_false_pass": {
+        "GPT4": {
+          "estimate": 0.175,
+          "ci95_cluster_bootstrap": [
+            0.065,
+            0.302
+          ],
+          "n": 40,
+          "consensus_not_fixed": 7,
+          "consensus_fixed": 33,
+          "consensus_unclear": 0,
+          "no_consensus_yet": 0,
+          "wilson_ci95_ignoring_clusters": [
+            0.175,
+            0.087,
+            0.32
+          ]
+        },
+        "Mistral": {
+          "estimate": 0.45,
+          "ci95_cluster_bootstrap": [
+            0.294,
+            0.605
+          ],
+          "n": 40,
+          "consensus_not_fixed": 18,
+          "consensus_fixed": 22,
+          "consensus_unclear": 0,
+          "no_consensus_yet": 0,
+          "wilson_ci95_ignoring_clusters": [
+            0.45,
+            0.307,
+            0.602
+          ]
+        },
+        "Qwen": {
+          "estimate": 0.4,
+          "ci95_cluster_bootstrap": [
+            0.25,
+            0.558
+          ],
+          "n": 40,
+          "consensus_not_fixed": 16,
+          "consensus_fixed": 24,
+          "consensus_unclear": 0,
+          "no_consensus_yet": 0,
+          "wilson_ci95_ignoring_clusters": [
+            0.4,
+            0.263,
+            0.554
+          ]
+        },
+        "pooled": {
+          "estimate": 0.342,
+          "ci95_cluster_bootstrap": [
+            0.26,
+            0.422
+          ]
+        }
+      },
+      "true_fix_186": {
+        "true_fix_186_GPT4": {
+          "estimate": 0.807,
+          "ci95_cluster_bootstrap": [
+            0.683,
+            0.915
+          ]
+        },
+        "true_fix_186_Mistral": {
+          "estimate": 0.5,
+          "ci95_cluster_bootstrap": [
+            0.359,
+            0.641
+          ]
+        },
+        "true_fix_186_Qwen": {
+          "estimate": 0.542,
+          "ci95_cluster_bootstrap": [
+            0.399,
+            0.677
+          ]
+        }
+      },
+      "labeller_false_pass_pooled": {
+        "A_unclear_excluded": {
+          "estimate": 0.602,
+          "ci95_cluster_bootstrap": [
+            0.509,
+            0.695
+          ]
+        },
+        "A_unclear_as_not_fixed": {
+          "estimate": 0.642,
+          "ci95_cluster_bootstrap": [
+            0.552,
+            0.73
+          ]
+        },
+        "B_unclear_excluded": {
+          "estimate": 0.123,
+          "ci95_cluster_bootstrap": [
+            0.057,
+            0.197
+          ]
+        },
+        "B_unclear_as_not_fixed": {
+          "estimate": 0.408,
+          "ci95_cluster_bootstrap": [
+            0.316,
+            0.504
+          ]
+        }
+      },
+      "judge_vs_human_kappa": {
+        "openai/gpt-oss-120b": 0.397,
+        "qwen/qwen3.8-27b": 0.126
+      },
+      "content_shrink_flagged_not_fixed": "34/56"
+    },
+    "round2": {
+      "kappa_binary_before_adjudication": 0.928,
+      "kappa_3_labels_before_adjudication": 0.928,
+      "agreement_binary": 0.967,
+      "both_decided": 120,
+      "unclear_by_A": 0,
+      "unclear_by_B": 0,
+      "consensus_false_pass": {
+        "GPT4": {
+          "estimate": 0.225,
+          "ci95_cluster_bootstrap": [
+            0.104,
+            0.362
+          ],
+          "n": 40,
+          "consensus_not_fixed": 9,
+          "consensus_fixed": 31,
+          "consensus_unclear": 0,
+          "no_consensus_yet": 0,
+          "wilson_ci95_ignoring_clusters": [
+            0.225,
+            0.123,
+            0.375
+          ]
+        },
+        "Mistral": {
+          "estimate": 0.55,
+          "ci95_cluster_bootstrap": [
+            0.395,
+            0.703
+          ],
+          "n": 40,
+          "consensus_not_fixed": 22,
+          "consensus_fixed": 18,
+          "consensus_unclear": 0,
+          "no_consensus_yet": 0,
+          "wilson_ci95_ignoring_clusters": [
+            0.55,
+            0.398,
+            0.693
+          ]
+        },
+        "Qwen": {
+          "estimate": 0.325,
+          "ci95_cluster_bootstrap": [
+            0.189,
+            0.475
+          ],
+          "n": 40,
+          "consensus_not_fixed": 13,
+          "consensus_fixed": 27,
+          "consensus_unclear": 0,
+          "no_consensus_yet": 0,
+          "wilson_ci95_ignoring_clusters": [
+            0.325,
+            0.201,
+            0.48
+          ]
+        },
+        "pooled": {
+          "estimate": 0.367,
+          "ci95_cluster_bootstrap": [
+            0.271,
+            0.471
+          ]
+        }
+      },
+      "true_fix_186": {
+        "true_fix_186_GPT4": {
+          "estimate": 0.758,
+          "ci95_cluster_bootstrap": [
+            0.625,
+            0.877
+          ]
+        },
+        "true_fix_186_Mistral": {
+          "estimate": 0.409,
+          "ci95_cluster_bootstrap": [
+            0.27,
+            0.549
+          ]
+        },
+        "true_fix_186_Qwen": {
+          "estimate": 0.61,
+          "ci95_cluster_bootstrap": [
+            0.474,
+            0.732
+          ]
+        }
+      },
+      "labeller_false_pass_pooled": {
+        "A_unclear_excluded": {
+          "estimate": 0.375,
+          "ci95_cluster_bootstrap": [
+            0.279,
+            0.479
+          ]
+        },
+        "A_unclear_as_not_fixed": {
+          "estimate": 0.375,
+          "ci95_cluster_bootstrap": [
+            0.279,
+            0.479
+          ]
+        },
+        "B_unclear_excluded": {
+          "estimate": 0.342,
+          "ci95_cluster_bootstrap": [
+            0.252,
+            0.439
+          ]
+        },
+        "B_unclear_as_not_fixed": {
+          "estimate": 0.342,
+          "ci95_cluster_bootstrap": [
+            0.252,
+            0.439
+          ]
+        }
+      },
+      "judge_vs_human_kappa": {
+        "openai/gpt-oss-120b": 0.385,
+        "qwen/qwen3.8-27b": 0.16
+      },
+      "content_shrink_flagged_not_fixed": "30/50"
+    }
+  },
+  "combined_round1_round2_secondary": {
+    "label": "SECONDARY: the rubric differed between rounds (v1 vs v1 + v2 addendum); round 2 alone is primary",
+    "design": "240 items, 173 distinct cases (round-2 cases exclude round-1 cases), cluster bootstrap over cases, 4000 reps, seed 20261024",
+    "n_decided": {
+      "GPT4": 80,
+      "Mistral": 80,
+      "Qwen": 80
+    },
+    "false_pass_rate_human_consensus": {
+      "GPT4": {
+        "estimate": 0.2,
+        "ci95_cluster_bootstrap": [
+          0.115,
+          0.29
+        ]
+      },
+      "Mistral": {
+        "estimate": 0.5,
+        "ci95_cluster_bootstrap": [
+          0.387,
+          0.61
+        ]
+      },
+      "Qwen": {
+        "estimate": 0.362,
+        "ci95_cluster_bootstrap": [
+          0.261,
+          0.476
+        ]
+      },
+      "pooled": {
+        "estimate": 0.354,
+        "ci95_cluster_bootstrap": [
+          0.292,
+          0.421
+        ]
+      },
+      "GPT4-Mistral": {
+        "estimate": -0.3,
+        "ci95_cluster_bootstrap": [
+          -0.44,
+          -0.171
+        ]
+      },
+      "GPT4-Qwen": {
+        "estimate": -0.162,
+        "ci95_cluster_bootstrap": [
+          -0.299,
+          -0.027
+        ]
+      },
+      "Mistral-Qwen": {
+        "estimate": 0.138,
+        "ci95_cluster_bootstrap": [
+          -0.011,
+          0.283
+        ]
+      },
+      "true_fix_186_GPT4": {
+        "estimate": 0.783,
+        "ci95_cluster_bootstrap": [
+          0.694,
+          0.866
+        ]
+      },
+      "true_fix_186_Mistral": {
+        "estimate": 0.454,
+        "ci95_cluster_bootstrap": [
+          0.355,
+          0.557
+        ]
+      },
+      "true_fix_186_Qwen": {
+        "estimate": 0.576,
+        "ci95_cluster_bootstrap": [
+          0.473,
+          0.668
+        ]
+      }
+    }
+  }
+}

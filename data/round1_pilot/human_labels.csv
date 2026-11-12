@@ -1,0 +1,121 @@
+item_id,model,row,id,category,rule,label_A,label_B,note_A,note_B,adjudicated,consensus
+H001,Mistral,26,3731007183,Layout,color-contrast-enhanced,not_fixed,not_fixed,,,,not_fixed
+H002,Qwen,117,4411029274,Syntax,landmark-one-main,fixed,unclear,,,fixed,fixed
+H003,Qwen,30,9513728892,Layout,color-contrast-enhanced,not_fixed,not_fixed,,,,not_fixed
+H004,Qwen,171,9915679548,Syntax,image-alt,not_fixed,fixed,,,fixed,fixed
+H005,Mistral,208,2647735504,Syntax,tabindex,not_fixed,fixed,,,not_fixed,not_fixed
+H006,Mistral,146,5351185237,Syntax,page-has-heading-one,fixed,unclear,,,fixed,fixed
+H007,GPT4,65,3842572222,Layout,color-contrast,not_fixed,fixed,,,not_fixed,not_fixed
+H008,Mistral,67,6744278124,Layout,color-contrast,unclear,not_fixed,"The sign-up link is given high-contrast styling, but the other affected text colors are not demonstrably corrected.",,not_fixed,not_fixed
+H009,Qwen,69,5992521276,Layout,color-contrast,not_fixed,unclear,,,not_fixed,not_fixed
+H010,Qwen,239,8352230246,Syntax,html-xml-lang-mismatch,fixed,fixed,,,,fixed
+H011,GPT4,68,8420224297,Layout,color-contrast,unclear,fixed,he full contrast outcome depends on the actual styles and states of the affected elements; the supplied evidence does not establish all ratios.,,fixed,fixed
+H012,GPT4,126,8420224297,Syntax,landmark-one-main,fixed,fixed,,,,fixed
+H013,Mistral,249,9364906934,Syntax,aria-roledescription,fixed,not_fixed,,,not_fixed,not_fixed
+H014,Qwen,206,7908444877,Syntax,aria-hidden-focus,fixed,fixed,,,,fixed
+H015,Mistral,9,3900495188,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H016,Qwen,76,7585490098,Layout,color-contrast,not_fixed,fixed,,,not_fixed,not_fixed
+H017,Qwen,165,1866132720,Syntax,image-alt,not_fixed,unclear,,,not_fixed,not_fixed
+H018,Mistral,64,8047369079,Layout,color-contrast,fixed,fixed,,,,fixed
+H019,Mistral,130,1105435317,Syntax,landmark-one-main,fixed,unclear,,,fixed,fixed
+H020,Qwen,7,5351185237,Layout,color-contrast-enhanced,fixed,fixed,,,,fixed
+H021,GPT4,229,5151103662,Syntax,aria-hidden-body,unclear,fixed,"The proposed repair changes the page structure, and the available snippet does not establish that the original content remains available to assistive technology.",,fixed,fixed
+H022,GPT4,105,1866132720,Syntax,link-name,fixed,fixed,,,,fixed
+H023,Mistral,117,4411029274,Syntax,landmark-one-main,fixed,unclear,,,fixed,fixed
+H024,Mistral,173,9503543617,Syntax,image-alt,not_fixed,unclear,,,not_fixed,not_fixed
+H025,Qwen,59,9533668246,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H026,GPT4,196,9394068939,Syntax,aria-input-field-name,fixed,fixed,,,,fixed
+H027,GPT4,10,1488388154,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H028,GPT4,62,9503543617,Syntax,region,fixed,fixed,,,,fixed
+H029,GPT4,36,1746488226,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H030,Mistral,125,2839400116,Syntax,landmark-one-main,not_fixed,unclear,,,fixed,fixed
+H031,Mistral,183,1041759486,Syntax,aria-allowed-attr,not_fixed,not_fixed,,,,not_fixed
+H032,GPT4,74,6786271985,Layout,color-contrast,not_fixed,fixed,,,fixed,fixed
+H033,Qwen,51,3131917710,Syntax,region,not_fixed,unclear,,,not_fixed,not_fixed
+H034,Mistral,55,6699878654,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H035,Qwen,31,8613910382,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H036,Qwen,118,7750001119,Syntax,landmark-one-main,fixed,unclear,,,fixed,fixed
+H037,Mistral,66,3951256293,Layout,color-contrast,unclear,fixed,The snippet does not establish sufficient contrast for all affected text and backgrounds,,not_fixed,not_fixed
+H038,Mistral,217,3805747062,Syntax,valid-lang,not_fixed,unclear,,,not_fixed,not_fixed
+H039,Mistral,23,519658437,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H040,Qwen,127,841418439,Syntax,landmark-one-main,not_fixed,fixed,,,fixed,fixed
+H041,Mistral,108,6465448582,Syntax,link-name,not_fixed,not_fixed,,,,not_fixed
+H042,Qwen,98,4888426482,Syntax,link-name,not_fixed,fixed,,,fixed,fixed
+H043,Qwen,130,1105435317,Syntax,landmark-one-main,not_fixed,unclear,,,fixed,fixed
+H044,Qwen,216,4365991990,Syntax,aria-required-attr,fixed,fixed,,,,fixed
+H045,GPT4,200,944160244,Syntax,label-title-only,fixed,fixed,,,,fixed
+H046,Mistral,179,6153424620,Syntax,aria-required-parent,not_fixed,fixed,,,fixed,fixed
+H047,Qwen,12,2644215829,Layout,color-contrast-enhanced,fixed,fixed,,,,fixed
+H048,GPT4,69,5992521276,Layout,color-contrast,unclear,fixed,The available evidence does not establish the contrast of all affected elements.,,fixed,fixed
+H049,Mistral,70,2279899774,Layout,color-contrast,fixed,fixed,,,,fixed
+H050,Qwen,170,1344325832,Syntax,image-alt,fixed,fixed,,,,fixed
+H051,Qwen,41,4374409465,Syntax,region,fixed,fixed,,,,fixed
+H052,Mistral,50,4912544535,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H053,GPT4,193,2103007653,Syntax,select-name,not_fixed,not_fixed,,,,not_fixed
+H054,Qwen,167,7908444877,Syntax,image-alt,not_fixed,unclear,,,not_fixed,not_fixed
+H055,Mistral,42,5921955571,Syntax,region,fixed,fixed,,,,fixed
+H056,Mistral,247,9364906934,Syntax,aria-progressbar-name,unclear,fixed,The visible snippet is insufficient to verify meaningful accessible names for every affected progress bar.,,fixed,fixed
+H057,Mistral,5,3150148978,Layout,color-contrast-enhanced,not_fixed,not_fixed,,,,not_fixed
+H058,GPT4,242,111849147,Syntax,aria-treeitem-name,fixed,fixed,,,,fixed
+H059,Mistral,105,1866132720,Syntax,link-name,fixed,fixed,,,,fixed
+H060,Mistral,78,4912544535,Syntax,duplicate-id,not_fixed,fixed,,,fixed,fixed
+H061,Qwen,56,6256204254,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H062,Mistral,38,6027797305,Syntax,region,not_fixed,unclear,,,not_fixed,not_fixed
+H063,Mistral,174,4365991990,Syntax,image-alt,unclear,fixed,"The repair is lengthy, and the available snippet does not establish whether all affected images receive meaningful alternatives.",,fixed,fixed
+H064,Qwen,200,944160244,Syntax,label-title-only,not_fixed,unclear,,,not_fixed,not_fixed
+H065,GPT4,52,841418439,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H066,GPT4,76,7585490098,Layout,color-contrast,fixed,fixed,,,,fixed
+H067,Qwen,146,5351185237,Syntax,page-has-heading-one,fixed,unclear,,,fixed,fixed
+H068,GPT4,116,3787975237,Syntax,link-name,not_fixed,fixed,,,fixed,fixed
+H069,Qwen,228,4374409465,Syntax,aria-text,not_fixed,fixed,,,fixed,fixed
+H070,Mistral,194,6465448582,Syntax,svg-img-alt,fixed,fixed,,,,fixed
+H071,Qwen,39,5263734580,Syntax,region,not_fixed,unclear,,,not_fixed,not_fixed
+H072,GPT4,140,7201688552,Syntax,page-has-heading-one,fixed,unclear,,,fixed,fixed
+H073,Mistral,2,4925950366,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H074,GPT4,189,5351185237,Syntax,aria-valid-attr-value,not_fixed,fixed,,,fixed,fixed
+H075,Mistral,201,944160244,Syntax,nested-interactive,not_fixed,unclear,,,not_fixed,not_fixed
+H076,Qwen,174,4365991990,Syntax,image-alt,not_fixed,unclear,,,not_fixed,not_fixed
+H077,GPT4,175,230914312,Syntax,image-alt,not_fixed,fixed,,,fixed,fixed
+H078,Qwen,131,1433604318,Syntax,landmark-one-main,fixed,fixed,,,,fixed
+H079,Mistral,107,3951256293,Syntax,link-name,fixed,fixed,,,,fixed
+H080,GPT4,19,3951256293,Layout,color-contrast-enhanced,unclear,fixed,The repair’s coverage of all affected elements and their resulting contrast ratios is not sufficiently established by the available snippet,,fixed,fixed
+H081,Qwen,48,5275238699,Syntax,region,not_fixed,unclear,,,not_fixed,not_fixed
+H082,GPT4,109,128813600,Syntax,link-name,not_fixed,fixed,,,fixed,fixed
+H083,Qwen,144,2044150440,Syntax,page-has-heading-one,fixed,unclear,,,fixed,fixed
+H084,GPT4,119,4244958066,Syntax,landmark-one-main,not_fixed,fixed,,,fixed,fixed
+H085,GPT4,5,3150148978,Layout,color-contrast-enhanced,fixed,fixed,,,,fixed
+H086,Qwen,168,2656435105,Syntax,image-alt,not_fixed,unclear,,,not_fixed,not_fixed
+H087,GPT4,125,2839400116,Syntax,landmark-one-main,fixed,unclear,,,fixed,fixed
+H088,Mistral,134,6529673719,Syntax,page-has-heading-one,fixed,unclear,,,fixed,fixed
+H089,GPT4,37,5263734580,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H090,Mistral,229,5151103662,Syntax,aria-hidden-body,not_fixed,fixed,,,fixed,fixed
+H091,Qwen,52,841418439,Syntax,region,not_fixed,unclear,,,not_fixed,not_fixed
+H092,GPT4,216,4365991990,Syntax,aria-required-attr,not_fixed,not_fixed,,,,not_fixed
+H093,GPT4,233,1266621207,Syntax,object-alt,fixed,not_fixed,,,not_fixed,not_fixed
+H094,GPT4,11,8589605512,Layout,color-contrast-enhanced,not_fixed,fixed,,,fixed,fixed
+H095,Qwen,187,5794675406,Syntax,empty-heading,not_fixed,fixed,,,not_fixed,not_fixed
+H096,Mistral,75,9503543617,Layout,color-contrast,unclear,fixed,The available evidence does not establish that all affected elements meet AA contrast.,,fixed,fixed
+H097,GPT4,127,841418439,Syntax,landmark-one-main,fixed,fixed,,,,fixed
+H098,GPT4,78,4912544535,Syntax,duplicate-id,unclear,fixed,"The repair modifies script markup, but the available snippet does not establish that every duplicate ID in the original fragment is resolved",,fixed,fixed
+H099,Mistral,221,7169554469,Syntax,aria-roles,not_fixed,fixed,,,not_fixed,not_fixed
+H100,GPT4,7,5351185237,Layout,color-contrast-enhanced,fixed,fixed,,,,fixed
+H101,GPT4,100,2839400116,Syntax,link-name,fixed,fixed,,,,fixed
+H102,GPT4,58,4872839958,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H103,Mistral,223,5627798358,Syntax,aria-valid-attr,not_fixed,unclear,,,not_fixed,not_fixed
+H104,GPT4,53,8047369079,Syntax,region,not_fixed,fixed,,,fixed,fixed
+H105,Qwen,109,128813600,Syntax,link-name,fixed,fixed,,,,fixed
+H106,Qwen,169,128813600,Syntax,image-alt,fixed,fixed,,,,fixed
+H107,GPT4,13,4116548132,Layout,color-contrast-enhanced,unclear,fixed,The available snippet does not establish enhanced contrast for every affected control and state.,,fixed,fixed
+H108,Qwen,205,4411029274,Syntax,document-title,fixed,unclear,,,fixed,fixed
+H109,GPT4,118,7750001119,Syntax,landmark-one-main,fixed,unclear,,,fixed,fixed
+H110,Qwen,222,5964897764,Syntax,meta-refresh,not_fixed,fixed,,,fixed,fixed
+H111,GPT4,112,2656435105,Syntax,link-name,fixed,fixed,,,,fixed
+H112,Mistral,76,7585490098,Layout,color-contrast,not_fixed,fixed,,,fixed,fixed
+H113,Qwen,74,6786271985,Layout,color-contrast,not_fixed,fixed,,,not_fixed,not_fixed
+H114,Mistral,43,1957689776,Syntax,region,not_fixed,unclear,,,not_fixed,not_fixed
+H115,Mistral,102,4157596408,Syntax,link-name,fixed,fixed,,,,fixed
+H116,Qwen,13,4116548132,Layout,color-contrast-enhanced,not_fixed,unclear,,,not_fixed,not_fixed
+H117,GPT4,215,841418439,Syntax,aria-toggle-field-name,not_fixed,fixed,,,fixed,fixed
+H118,GPT4,192,6153424620,Syntax,aria-required-children,not_fixed,fixed,,,fixed,fixed
+H119,Mistral,10,1488388154,Layout,color-contrast-enhanced,unclear,unclear,"The visible snippet changes some styling, but does not establish that all affected elements meet 7:1 contrast.",,fixed,fixed
+H120,Qwen,245,853326546,Syntax,aria-meter-name,not_fixed,fixed,,,fixed,fixed

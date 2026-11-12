@@ -1,0 +1,7 @@
+.env
+*.env
+ollama_models/
+.venv/
+__pycache__/
+cache/
+*.key

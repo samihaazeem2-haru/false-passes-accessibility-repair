@@ -1,0 +1,293 @@
+{
+  "cases": 186,
+  "replication_vs_step1_step3": {
+    "rows": 558,
+    "mismatches": {
+      "checker_pass": 0,
+      "empty_response": 0,
+      "flag_placeholder": 0,
+      "flag_no_html_tag": 0,
+      "introduced": 0,
+      "content_shrink": 0,
+      "paper_case_reprompted": 0
+    }
+  },
+  "models": {
+    "GPT4": {
+      "reprompted_cases": 40,
+      "reprompted_raw_missing": 0,
+      "not_reprompted_raw_missing": 0,
+      "texts_differ": 172,
+      "texts_differ_ignoring_whitespace": 172,
+      "texts_differ_ignoring_fences_and_whitespace": 13,
+      "texts_differ_ignoring_fences_and_whitespace_reprompted": 6,
+      "texts_differ_reprompted": 37,
+      "texts_differ_ignoring_whitespace_reprompted": 37,
+      "checker_pass_changed": 2,
+      "pass_to_fail": 0,
+      "fail_to_pass": 2,
+      "published": {
+        "n": 186,
+        "checker_pass": 182,
+        "empty": 0,
+        "no_html_or_placeholder": 26,
+        "new_violation": 24,
+        "content_shrink": 69,
+        "among_passes": {
+          "no_html_or_placeholder": 24,
+          "new_violation": 22,
+          "content_shrink": 67
+        },
+        "checker_pass_wilson": [
+          0.978,
+          0.946,
+          0.992
+        ],
+        "errors": 0
+      },
+      "deterministic": {
+        "n": 186,
+        "checker_pass": 184,
+        "empty": 0,
+        "no_html_or_placeholder": 22,
+        "new_violation": 25,
+        "content_shrink": 69,
+        "among_passes": {
+          "no_html_or_placeholder": 22,
+          "new_violation": 25,
+          "content_shrink": 69
+        },
+        "checker_pass_wilson": [
+          0.989,
+          0.962,
+          0.997
+        ],
+        "errors": 0
+      },
+      "reprompted_only": {
+        "published": {
+          "n": 40,
+          "checker_pass": 36,
+          "empty": 0,
+          "no_html_or_placeholder": 11,
+          "new_violation": 24,
+          "content_shrink": 15,
+          "among_passes": {
+            "no_html_or_placeholder": 9,
+            "new_violation": 22,
+            "content_shrink": 13
+          },
+          "checker_pass_wilson": [
+            0.9,
+            0.769,
+            0.96
+          ],
+          "errors": 0
+        },
+        "deterministic": {
+          "n": 40,
+          "checker_pass": 38,
+          "empty": 0,
+          "no_html_or_placeholder": 9,
+          "new_violation": 24,
+          "content_shrink": 15,
+          "among_passes": {
+            "no_html_or_placeholder": 9,
+            "new_violation": 24,
+            "content_shrink": 15
+          },
+          "checker_pass_wilson": [
+            0.95,
+            0.835,
+            0.986
+          ],
+          "errors": 0
+        }
+      }
+    },
+    "Mistral": {
+      "reprompted_cases": 61,
+      "reprompted_raw_missing": 1,
+      "not_reprompted_raw_missing": 0,
+      "texts_differ": 52,
+      "texts_differ_ignoring_whitespace": 52,
+      "texts_differ_ignoring_fences_and_whitespace": 46,
+      "texts_differ_ignoring_fences_and_whitespace_reprompted": 16,
+      "texts_differ_reprompted": 16,
+      "texts_differ_ignoring_whitespace_reprompted": 16,
+      "checker_pass_changed": 11,
+      "pass_to_fail": 5,
+      "fail_to_pass": 6,
+      "published": {
+        "n": 186,
+        "checker_pass": 169,
+        "empty": 0,
+        "no_html_or_placeholder": 46,
+        "new_violation": 28,
+        "content_shrink": 119,
+        "among_passes": {
+          "no_html_or_placeholder": 38,
+          "new_violation": 18,
+          "content_shrink": 108
+        },
+        "checker_pass_wilson": [
+          0.909,
+          0.859,
+          0.942
+        ],
+        "errors": 1
+      },
+      "deterministic": {
+        "n": 186,
+        "checker_pass": 170,
+        "empty": 1,
+        "no_html_or_placeholder": 3,
+        "new_violation": 30,
+        "content_shrink": 99,
+        "among_passes": {
+          "no_html_or_placeholder": 1,
+          "new_violation": 25,
+          "content_shrink": 92
+        },
+        "checker_pass_wilson": [
+          0.914,
+          0.865,
+          0.946
+        ],
+        "errors": 2
+      },
+      "reprompted_only": {
+        "published": {
+          "n": 61,
+          "checker_pass": 44,
+          "empty": 0,
+          "no_html_or_placeholder": 17,
+          "new_violation": 28,
+          "content_shrink": 34,
+          "among_passes": {
+            "no_html_or_placeholder": 9,
+            "new_violation": 18,
+            "content_shrink": 23
+          },
+          "checker_pass_wilson": [
+            0.721,
+            0.598,
+            0.818
+          ],
+          "errors": 1
+        },
+        "deterministic": {
+          "n": 61,
+          "checker_pass": 48,
+          "empty": 1,
+          "no_html_or_placeholder": 2,
+          "new_violation": 28,
+          "content_shrink": 23,
+          "among_passes": {
+            "no_html_or_placeholder": 0,
+            "new_violation": 23,
+            "content_shrink": 18
+          },
+          "checker_pass_wilson": [
+            0.787,
+            0.669,
+            0.871
+          ],
+          "errors": 1
+        }
+      }
+    },
+    "Qwen": {
+      "reprompted_cases": 68,
+      "reprompted_raw_missing": 0,
+      "not_reprompted_raw_missing": 0,
+      "texts_differ": 129,
+      "texts_differ_ignoring_whitespace": 129,
+      "texts_differ_ignoring_fences_and_whitespace": 26,
+      "texts_differ_ignoring_fences_and_whitespace_reprompted": 0,
+      "texts_differ_reprompted": 53,
+      "texts_differ_ignoring_whitespace_reprompted": 53,
+      "checker_pass_changed": 6,
+      "pass_to_fail": 6,
+      "fail_to_pass": 0,
+      "published": {
+        "n": 186,
+        "checker_pass": 168,
+        "empty": 0,
+        "no_html_or_placeholder": 38,
+        "new_violation": 26,
+        "content_shrink": 54,
+        "among_passes": {
+          "no_html_or_placeholder": 38,
+          "new_violation": 25,
+          "content_shrink": 54
+        },
+        "checker_pass_wilson": [
+          0.903,
+          0.852,
+          0.938
+        ],
+        "errors": 0
+      },
+      "deterministic": {
+        "n": 186,
+        "checker_pass": 162,
+        "empty": 2,
+        "no_html_or_placeholder": 21,
+        "new_violation": 30,
+        "content_shrink": 44,
+        "among_passes": {
+          "no_html_or_placeholder": 21,
+          "new_violation": 28,
+          "content_shrink": 43
+        },
+        "checker_pass_wilson": [
+          0.871,
+          0.815,
+          0.912
+        ],
+        "errors": 1
+      },
+      "reprompted_only": {
+        "published": {
+          "n": 68,
+          "checker_pass": 50,
+          "empty": 0,
+          "no_html_or_placeholder": 4,
+          "new_violation": 26,
+          "content_shrink": 7,
+          "among_passes": {
+            "no_html_or_placeholder": 4,
+            "new_violation": 25,
+            "content_shrink": 7
+          },
+          "checker_pass_wilson": [
+            0.735,
+            0.62,
+            0.826
+          ],
+          "errors": 0
+        },
+        "deterministic": {
+          "n": 68,
+          "checker_pass": 50,
+          "empty": 0,
+          "no_html_or_placeholder": 4,
+          "new_violation": 26,
+          "content_shrink": 7,
+          "among_passes": {
+            "no_html_or_placeholder": 4,
+            "new_violation": 25,
+            "content_shrink": 7
+          },
+          "checker_pass_wilson": [
+            0.735,
+            0.62,
+            0.826
+          ],
+          "errors": 0
+        }
+      }
+    }
+  }
+}

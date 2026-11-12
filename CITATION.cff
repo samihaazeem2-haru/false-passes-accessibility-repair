@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the paper and this repository as below."
+title: "False Passes in LLM-Based Web Accessibility Repair: A Human-Validated Audit (data and code)"
+type: software
+version: "1.0.0"
+authors:
+  - given-names: Samiha
+    family-names: Azeem
+    affiliation: "Forman Christian College (A Chartered University), Lahore, Pakistan"
+  - given-names: Toshiba
+    family-names: Nayyab
+    affiliation: "Forman Christian College (A Chartered University), Lahore, Pakistan"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - web accessibility
+  - large language models
+  - automated repair
+  - evaluation
+  - WCAG
+  - axe-core
+abstract: >-
+  Human labels, samples, rubrics, frozen analysis plans, analysis scripts and results for an audit of how often
+  a checker-passing LLM repair of a web accessibility violation is not a real fix. Two blind labellers judged
+  120 checker-passing AccessGuru-final repairs by GPT-4, Mistral and Qwen (main round), 120 in a pilot round,
+  and 60 first-round repairs by five local models.
+references:
+  - type: conference-paper
+    title: "AccessGuru: Leveraging LLMs to Detect and Correct Web Accessibility Violations in HTML Code"
+    authors:
+      - given-names: Nadeen
+        family-names: Fathallah
+      - given-names: Daniel
+        family-names: Hernández
+      - given-names: Steffen
+        family-names: Staab
+    collection-title: "Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)"
+    year: 2025
+    doi: 10.1145/3663547.3746360
+preferred-citation:
+  type: article
+  title: "False Passes in LLM-Based Web Accessibility Repair: A Human-Validated Audit"
+  authors:
+    - given-names: Samiha
+      family-names: Azeem
+      affiliation: "Forman Christian College (A Chartered University), Lahore, Pakistan"
+    - given-names: Toshiba
+      family-names: Nayyab
+      affiliation: "Forman Christian College (A Chartered University), Lahore, Pakistan"
+  year: 2026
