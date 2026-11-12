@@ -634,8 +634,7 @@ is part of the record.)
 
 ## Use of AI tools
 
-AI coding assistants (Claude and Codex) were used to help write and run the analysis scripts, build the labelling
-pages and prepare this repository. The study design and the human labels are the authors' and their colleagues'.
+AI coding assistants (Claude and Codex) were used as supporting tools to assist with writing and executing analysis scripts, developing the labelling interfaces. The study design, research decisions, interpretation of results, and human-generated labels were the responsibility of the authors and their colleagues.
 
 ## Licences
 
