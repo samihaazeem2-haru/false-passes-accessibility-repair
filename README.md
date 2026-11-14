@@ -1,3 +1,7 @@
+Note: wording in PLAN_round2.md, results_round2.md and step3_analyze.py that calls labeller A
+"the author" is wrong. Both evaluators were colleagues of the authors, not authors. The frozen
+files were not edited because the plan hash depends on them.
+
 # False Passes in LLM-Based Web Accessibility Repair: A Human-Validated Audit
 
 Data, code and results for the paper by **Samiha Azeem and Toshiba Nayyab**, Department of Computer Science,
@@ -75,7 +79,6 @@ CHANGES.md             where every file came from, and the files changed for pri
 SHA256SUMS             SHA-256 of every file in the repository
 .gitignore             keeps keys, environments, model files and caches out of git
 .gitattributes         stops git from changing line endings, so the checksums still match after a clone
-paper/                 paper.tex and references.bib (draft of 27 October 2026; see the note below)
 data/
   round1_pilot/        round 1: hidden key, both labels and consensus, adjudicated disagreements
   round2_main/         round 2: frozen sample, hidden key, each labeller's own file, adjudication, merged consensus
@@ -90,11 +93,6 @@ results/               results.json, results_round2.md, results_round3.{json,md}
 examples/              examples_false_pass.md: five round-2 false passes, trimmed, with attribution
 docs/                  HANDOFF.md (the working notes up to the end of round 2) and hardware_and_models.md
 ```
-
-`paper/paper.tex` is the draft of 27 October 2026, copied as it was except for one line (see `CHANGES.md`). It
-still uses an earlier working title, does not yet describe round 3 or the extraction check, and contains red
-`\fillin{...}` reminders that the authors still have to resolve. No compiled `paper.pdf` was found, so none is
-included.
 
 ## Data dictionary
 
@@ -596,7 +594,6 @@ the same bytes and the same checksums.
 - **The 24 judgments of an early paid judge pilot,** which was dropped when the study moved to a $0 plan. No result
   in the paper depends on them.
 - **The intermediate `adjudication_todo` files** written by the merge step. The merge step rewrites them.
-- **A compiled `paper.pdf`.** None was found.
 
 ## Known inconsistency
 

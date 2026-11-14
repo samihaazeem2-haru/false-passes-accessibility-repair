@@ -6,7 +6,6 @@ This repository was assembled on 12 November 2026 from the study's working folde
 
 | File | What was replaced | SHA-256 of the source | SHA-256 of the copy |
 |---|---|---|---|
-| `paper/paper.tex` (from `paper.tex`) | the labellers' names (and the reminder to confirm them) replaced by a neutral sentence | `32ef599bfcaca5bc51bfd985c00bae3ca7069079623212fa6392408a916ecdeb` | `61ff3494790a9936cf6bfc63f0a42c51ba21e8d11e6bc1aec15509130adafabb` |
 | `docs/HANDOFF.md` (from `experiment/HANDOFF.md`) | two absolute paths containing the username replaced by `<path-to-Data-folder>`; two paths into a personal download folder replaced by `<folder-with-returned-labels>`; two mentions of that download folder reworded | `7c614c8bae45196db84b6d3a2ee508592537f724d1707ebe49dd671da8f8029d` | `1a421707872284e0afb2fbc62fd4d2295bb5d3798cb59c3709e870076eb81868` |
 
 No script, CSV or JSON file contained a username, an absolute path, a key or a labeller's name, so none of them was changed. The word "downloads" still appears in three scripts, where it describes a browser download ("the CSV downloads as ..."), and in one model reply ("downloads an app"); neither is a folder.
@@ -19,8 +18,6 @@ None. The largest file is `data/local_model_repairs/Qwen3.5-4B.jsonl` (7,734,278
 
 | File in this repository | Source in the working folder | Byte-identical |
 |---|---|---|
-| `paper/paper.tex` | `paper.tex` | **no** (see above) |
-| `paper/references.bib` | `references.bib` | yes |
 | `data/round1_pilot/labeling_key.csv` | `experiment/release/data/labeling_key.csv` | yes |
 | `data/round1_pilot/human_labels.csv` | `experiment/release/data/human_labels.csv` | yes |
 | `data/round1_pilot/adjudication.csv` | `experiment/release/data/adjudication.csv` | yes |
